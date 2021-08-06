@@ -15,7 +15,7 @@ $(document).keypress(function() {
     }
 });
 
-$(".btn").on('click touchstart', function() {
+$(".btn").on('click touchend', function() {
 
     var userChosenColor = $(this).attr("id");
     userClickedPattern.push(userChosenColor);
